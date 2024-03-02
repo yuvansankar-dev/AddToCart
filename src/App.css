@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  margin: 20px 0px;
+  background-color: #586b1d;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.mainContainer {
+  background-color: #dddfd7;
+  margin: 20px;
+  border-radius: 10px;
+}
+.carousel-inner {
+  width: 220px !important;
+  height: 140px !important;
+}

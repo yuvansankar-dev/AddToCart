@@ -1,0 +1,77 @@
+.image {
+  width: 350px;
+  height: 200px;
+}
+.productInfo {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.descriptionPart {
+  display: flex;
+  justify-content: space-between;
+}
+.productEdit {
+  display: flex;
+}
+.removeButton {
+  background-color: #709500;
+  z-index: 2;
+  color: white;
+  font-weight: normal;
+  width: 80px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15) !important;
+}
+.productManipulate {
+  display: flex;
+  justify-content: space-between;
+}
+.addButton,
+.subButton {
+  width: 30px;
+  background-color: #d5ff55;
+}
+.subButton {
+  border-radius: 15px 0px 0px 15px;
+}
+.addButton {
+  border-radius: 0px 15px 15px 0px;
+}
+.quantity {
+  background-color: #d5ff55;
+  margin: 0px 3px;
+  padding: 0px 6px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 7px !important;
+}
+.productName,
+.ProductCost {
+  font-weight: bold;
+  font-size: large;
+}
+.card {
+  position: relative;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15) !important;
+  background-color: #f7f7f7;
+  width: 250px;
+  margin: 20px;
+}
+.description {
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
